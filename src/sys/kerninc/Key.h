@@ -120,9 +120,7 @@ bool CheckObjectType(OID oid, struct ObjectLocator * pObjLoc,
 #ifndef NDEBUG
 bool key_IsValid(const Key* thisPtr);
 #endif
-#ifdef OPTION_DDB
 int key_ValidKeyPtr(const Key * pKey);
-#endif
 
 void key_MakeUnpreparedCopy(Key * dst, const Key * src);
 
